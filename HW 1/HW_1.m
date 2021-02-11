@@ -10,6 +10,7 @@ show_path_plot = false;
 show_aircraft_path = false;
 
 load subdata.mat % Imports the data as the 262144x49 (space by time) matrix named subdata
+% This matrix is too big to upload to GitHub
 
 L = 10; % spatial domain
 n = 64; % Fourier modes
